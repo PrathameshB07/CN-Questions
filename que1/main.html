@@ -1,0 +1,196 @@
+<!-- Task : you have to code such that content present in scrollable-container should be scrolled and seen while scrolling through main page -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrollable Content</title>
+    <link rel="stylesheet" type="text/css" href="try.css">
+    <script src="implement.js"></script>
+</head>
+<body>
+
+    <h1>Scrollable Content</h1>
+
+    <div class="not-scrollable">
+        <p> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, tortor ut tristique tincidunt, nunc
+            mauris
+            ultrices nunc, nec aliquet nisl nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc
+            ullamcorper
+            mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper
+            mauris,
+            nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris,
+            nec
+            lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec
+            lacinia
+            nunc nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia
+            nunc
+            nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc
+            nunc
+            id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc
+            id
+            nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id
+            nunc.
+            Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc.
+            Sed
+            auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed
+            auctor,
+            mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor,
+            mauris
+            id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris
+            id
+            lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id
+            lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia</p>
+    </div>
+
+
+    <div class="scrollable-container">
+        <div class="inner-content">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam pariatur repellendus earum ad adipisci nostrum officia voluptatem rerum sint id veniam velit, eius temporibus eum enim nemo. Itaque, id autem!</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            This is some text that will be scrollable.
+            <br>
+            <br>
+            <br>
+            <br>
+            This is some more text that will be scrollable.
+            <br>
+            <br>
+            <br>
+            <br>
+            This is some more text that will be scrollable.
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam pariatur repellendus earum ad adipisci nostrum officia voluptatem rerum sint id veniam velit, eius temporibus eum enim nemo. Itaque, id autem!</p>
+            <!-- Add more content as needed -->
+        </div>
+    </div>
+
+    <div class="not-scrollable">
+        <p> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, tortor ut tristique tincidunt, nunc
+            mauris
+            ultrices nunc, nec aliquet nisl nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc
+            ullamcorper
+            mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper
+            mauris,
+            nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris,
+            nec
+            lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec
+            lacinia
+            nunc nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia
+            nunc
+            nunc id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc
+            nunc
+            id nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc
+            id
+            nunc. Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id
+            nunc.
+            Sed auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc.
+            Sed
+            auctor, mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed
+            auctor,
+            mauris id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor,
+            mauris
+            id lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris
+            id
+            lacinia lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id
+            lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+            lacinia, nunc nunc ullamcorper mauris, nec lacinia nunc nunc id nunc. Sed auctor, mauris id lacinia
+        </p>
+    </div>
+
+</body>
+</html>

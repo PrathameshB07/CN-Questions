@@ -1,0 +1,15 @@
+.scrollable-container {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+.inner-content {
+    padding: 10px;
+}
+
+.not-scrollable {
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px;
+}
